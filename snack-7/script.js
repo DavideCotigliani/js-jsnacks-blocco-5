@@ -18,9 +18,10 @@ const students = [
     class: '5B'
   },
 ];
-const newStudent = students.find((item)=>{
-  return item.id === 2;
-})
+const newStudent = students.find((item)=> (item.id ===2))
+// {
+//   return item.id === 2;
+// })
 console.log(newStudent);
 
 // Recupera i dati dello studente con id 2
