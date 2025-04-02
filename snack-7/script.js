@@ -18,6 +18,10 @@ const students = [
     class: '5B'
   },
 ];
+const newStudent = students.find((item)=>{
+  return item.id === 2;
+})
+console.log(newStudent);
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
